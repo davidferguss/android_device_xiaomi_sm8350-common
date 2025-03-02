@@ -133,8 +133,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Device-specific settings
- PRODUCT_PACKAGES += \
-     XiaomiDolby
+PRODUCT_PACKAGES += \
+     XiaomiDolby \
+     XiaomiDolbyResCommon
 
 # Display
 PRODUCT_PACKAGES += \
